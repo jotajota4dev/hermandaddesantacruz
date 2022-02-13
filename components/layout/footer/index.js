@@ -1,3 +1,9 @@
+import { FooterWrapper } from './styles'
+
 export default function Footer() {
-  return <h1>Footer</h1>
+  return (
+    <>
+      <FooterWrapper></FooterWrapper>
+    </>
+  )
 }
