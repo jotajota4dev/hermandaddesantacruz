@@ -32,6 +32,9 @@ export default function App({ Component, pageProps }) {
 const GlobalStyle = createGlobalStyle`
   html {
     font-family: 'Rokkitt', Arial, Helvetica, sans-serif;
+    * {
+      box-sizing: border-box;
+    }
   }
   body {
     margin: 0;
